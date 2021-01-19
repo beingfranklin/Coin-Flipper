@@ -8,8 +8,21 @@ A simple coin flipping game using Haskell's concurrency method.
 
 To compile the program just use the following command
 
- `stack ghci concurrent.hs -- -threaded -rtsopts'`
+ ~~`stack ghci concurrent.hs -- -threaded -rtsopts`~~
+
 
 and run it by
 
-`./concurrent`
+~~`./concurrent`~~
+
+#### Converted into stack project
+
+So follow the below steps instead
+
+ `stack setup`
+
+ `stack build`
+
+ `stack exec coinflipping-exec`
+
+
